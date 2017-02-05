@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>action</title>
+</head>
+<body>
+<style type="text/css">
+	#adam{
+		background: url(sprit/sp.png);
+        width: 400px;
+        height: 600px;
+        -webkit-animation:walk-east 4.0s steps(9) infinite;
+	}
+	@-webkit-keyframes walk-east{
+  from{ background-position: 0px; }
+  to { background-position: -1px; }
+	}
+	@keyframes walk-east{
+  from{ background-position: 0px; }
+  to { background-position: -1000px; }
+	}
+</style>
+<div id="adam" ></div>
+</body>
+</html>
